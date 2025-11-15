@@ -1,0 +1,92 @@
+# ---------------------------------
+# Python
+# ---------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Local environment variables
+.env
+.env.*  
+*.env
+
+# ---------------------------------
+# FastAPI / Project
+# ---------------------------------
+logs/
+*.log
+
+# Compiled files
+*.so
+*.dll
+
+# Cache folders
+.cache/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Ruff, Black, Pyright temp files
+ruff_cache/
+.pyright/
+
+# ---------------------------------
+# Playwright
+# ---------------------------------
+# Browsers downloaded locally (not needed in repo)
+playwright/.cache/
+playwright/downloads/
+playwright/browsers/
+
+# Test artifacts
+test-results/
+artifacts/
+
+# ---------------------------------
+# OS Generated Files
+# ---------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ---------------------------------
+# Docker
+# ---------------------------------
+docker-data/
+*.pid
+*.tar
+
+# ---------------------------------
+# Build / Distribution
+# ---------------------------------
+dist/
+build/
+*.egg-info/
+
+# ---------------------------------
+# Editor Config
+# ---------------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# ---------------------------------
+# Project Secrets
+# ---------------------------------
+secret.txt
+keys/
+token.json
+credentials.json
