@@ -1,0 +1,33 @@
+# ---- Web Framework ----
+fastapi
+uvicorn[standard]
+
+# ---- Data & Core Utilities ----
+pydantic
+python-dotenv
+
+# ---- Networking ----
+httpx
+requests
+
+# ---- Browser Automation ----
+playwright
+
+# ---- LLM Providers (choose those you use) ----
+openai
+google-generativeai
+
+# ---- Parsing, Data, PDFs, Images ----
+beautifulsoup4
+lxml
+pandas
+numpy
+PyPDF2
+
+# ---- Testing ----
+pytest
+pytest-asyncio
+pytest-mock
+
+# ---- Async Tools ----
+anyio
