@@ -10,6 +10,8 @@ from pydantic import BaseModel
 from playwright.sync_api import sync_playwright
 
 from app.solver import solve_quiz
+from dotenv import load_dotenv
+load_dotenv()
 
 
 # -------- ENVIRONMENT SECRET -------- #
